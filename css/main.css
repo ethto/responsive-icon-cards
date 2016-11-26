@@ -21,14 +21,19 @@ body {
   margin: 0;
 }
 
-.cards {
-  margin-left: 10px;
-  padding: 0;
+.card {
+  display: block;
 }
 
-.card {
+.card-img img {
+  margin: 0;
+}
+
+.cards {
   text-decoration: none;
   list-style-type: none;
+  margin-left: 10px;
+  padding: 0;
 }
 
 .card-img {
@@ -37,12 +42,12 @@ body {
   margin: auto;
 }
 
-h2 {
+.card-body h2 {
   margin-bottom: 0;
   margin-top: 8px;
 }
 
-p {
+.card-body p {
   margin-top: 3px;
 }
 
@@ -98,10 +103,13 @@ p {
     line-height: 1.5;
   }
 
+}
+
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
     line-height: 1.5;
   }
+
 }
